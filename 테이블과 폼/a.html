@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+    <style>
+        table,
+        td,
+        th{
+            border : 1px solid blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <table border ="1">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>나이</th>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>사쿠라</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>김주영</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <th>번호</th>
+                <th colspan="2">정보</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>사쿠라</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>김진주</td>
+                <td>22</td>
+            </tr>
+    </table>
+    <tfoot>
+        <tr>
+            <td>테이블 바닥글</td>
+        </tr>
+    </tfoot>
+</body>
+
+</html>
