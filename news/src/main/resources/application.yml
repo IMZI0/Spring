@@ -1,4 +1,4 @@
 server:
   servlet:
     encoding:
-      forc-response: true
+      force-response: true
