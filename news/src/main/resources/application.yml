@@ -1,0 +1,4 @@
+server:
+  servlet:
+    encoding:
+      forc-response: true
